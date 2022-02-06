@@ -1,0 +1,50 @@
+.footer-section {
+  background-image: url(../../image/footer-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(22 16 16 / 94%);
+  height: 550px;
+}
+.phone-style-bg {
+  width: 70px;
+  height: 70px;
+  background-color: #ede6e6;
+  padding: 15px;
+  position: relative;
+  position: absolute;
+  z-index: 99;
+  margin: 41px 0px 0px -29px;
+}
+.phone-style {
+  background-color: #fefeff;
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 8px;
+  bottom: 2px;
+  right: 0;
+  left: 8px;
+  padding: 9px;
+}
+.call-style {
+  background-color: #fd8c13;
+  padding: 10px;
+  width: 350px;
+  height: 160px;
+  position: relative;
+  color: #fefeff;
+}
+.call-style h6 {
+  margin-top: 41px;
+}
+.social-icon {
+  margin: 0px auto;
+}
+.dash-line {
+  border: none;
+  border-top: 1px dashed rgb(250, 226, 16);
+  color: #fff;
+  height: 1px;
+  width: 100%;
+  margin-top: 43px;
+}

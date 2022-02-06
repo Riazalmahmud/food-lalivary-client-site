@@ -1,0 +1,117 @@
+.healthy-title {
+  font-weight: bold;
+  color: #f78c16;
+  text-align: left;
+}
+.healthy-title span {
+  color: #83c52f;
+}
+.healthy-style p {
+  text-align: left;
+}
+.healthy-style button {
+  padding: 15px 67px;
+  float: left;
+}
+.service-section {
+  background-color: #f4f5f2;
+}
+.service-style h2 {
+  width: 100px !important;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #6dad19;
+  padding: 26px;
+  margin: 0px auto;
+}
+.popular-title h1 {
+  text-align: center;
+}
+.popular-product {
+  background-image: url("../../image/product/pop_smoothie_04-720x1030.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 400px;
+  position: relative;
+}
+.popular-product02 {
+  background-image: url("../../image/product/pop_smoothie_01-720x1030.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 400px;
+  position: relative;
+}
+.popular-product03 {
+  background-image: url("../../image/product/pop_smoothie_02-720x1030.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 400px;
+  position: relative;
+}
+.popular-product04 {
+  background-image: url("../../image/product/pop_smoothie_03-720x1030.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 400px;
+  position: relative;
+}
+/* #popular-product-rgba {
+  background-color: rgba(255, 0, 0, 0.3);
+} */
+.popular-product img {
+  position: relative;
+}
+.product-info {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  margin: 274px 0px 0px 39px;
+}
+
+.product-info p {
+  font-size: 14px;
+}
+
+/* organic-food */
+.organic-food-style {
+  margin-top: 300px;
+  background-color: #57910b;
+  height: 350px;
+}
+/* .organic-food {
+ 
+} */
+.organic-section-main {
+  background: #e4ecda;
+  margin-top: -22px;
+  height: 700px;
+  overflow: hidden;
+}
+.organic-food img {
+  max-width: 100%;
+  height: auto;
+  margin-top: -300px;
+  background: transparent;
+}
+.organic-section {
+  width: 240px;
+  height: 240px;
+}
+.organic-section-style {
+  margin: 167px 0;
+}
+
+.organic-section img {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  margin: 2px;
+}
+.organic-title {
+  margin-top: 20px;
+}
+/*-------------------- popular-food------------------------ */
+.popular-food img {
+  width: 250px;
+  height: 250px;
+}
