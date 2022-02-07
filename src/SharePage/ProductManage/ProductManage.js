@@ -8,7 +8,7 @@ const ProductManage = () => {
   const [product, setproduct] = useState([]);
   const [cart, setCart] = useState([]);
   useEffect(() => {
-    const url = `https://obscure-fjord-46479.herokuapp.com/shopManage?email=${user.email}`;
+    const url = `https://murmuring-cove-81107.herokuapp.com/foodManagee?email=${user.email}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setproduct(data));

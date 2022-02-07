@@ -87,7 +87,7 @@ const Dashboard = (props) => {
   return (
     <div>
       <Box sx={{ display: "flex" }}>
-        <CssBaseline />>
+        <CssBaseline />
         <Box
           component="nav"
           sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}

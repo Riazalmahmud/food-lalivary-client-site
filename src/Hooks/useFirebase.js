@@ -98,7 +98,7 @@ const useFirebase = () => {
   }, []);
 
   useEffect(() => {
-    fetch(`https://obscure-fjord-46479.herokuapp.com/user/${user.email}`)
+    fetch(`https://murmuring-cove-81107.herokuapp.com/user/${user.email}`)
       .then((res) => res.json())
       .then((data) => setAdmin(data.admin));
   }, [user.email]);
@@ -117,7 +117,7 @@ const useFirebase = () => {
 
   const saveUser = (email, displalyName, method) => {
     const user = { email, displalyName };
-    fetch("https://obscure-fjord-46479.herokuapp.com/user", {
+    fetch("https://murmuring-cove-81107.herokuapp.com/user", {
       method: method,
       headers: {
         "content-type": "application/JSON",

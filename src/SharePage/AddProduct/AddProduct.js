@@ -8,7 +8,7 @@ const AddProduct = () => {
   const onSubmit = (data) => {
     console.log(data);
     axios
-      .post("https://obscure-fjord-46479.herokuapp.com/products", data)
+      .post("https://murmuring-cove-81107.herokuapp.com/products", data)
       .then((res) => {
         if (res.data.insertedId) {
           <Alert severity="success">Successfully product publish </Alert>;
@@ -56,7 +56,7 @@ const AddProduct = () => {
               className="bg-transparent mt-2"
             />
 
-            <button type="submit"> Login</button>
+            <button type="submit"> publish</button>
           </form>
         </div>
       </div>

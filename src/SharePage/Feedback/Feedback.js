@@ -17,7 +17,7 @@ const Feedback = () => {
   const onSubmit = (data) => {
     const rateCount = { ...data, rating: rating / 20 };
     axios
-      .post("https://obscure-fjord-46479.herokuapp.com/feedbacks", rateCount)
+      .post("https://murmuring-cove-81107.herokuapp.com/feedbacks", rateCount)
       .then((res) => {
         if (res.data.insertedId) {
           <Alert severity="success">Successfully Rating publish </Alert>;
