@@ -6,7 +6,7 @@ const Catagories = () => {
   const { user } = useAuth();
   const [categories, setCategories] = useState([]);
   const shopCategory = { user: user.displayName, email: user.email };
-  const [addCart, setAddCart] = shopCategory;
+  const [addCart, setAddCart] = useState(shopCategory);
 
   const handaleAddDelivary = (id) => {
     const uri = `https://murmuring-cove-81107.herokuapp.com/products/${id}`;
@@ -42,7 +42,7 @@ const Catagories = () => {
   }, []);
   return (
     <div>
-      <Row xs={1} md={5} className="g-4">
+      <Row xs={1} md={4} className="g-1">
         {categories.map((category) => (
           <Category
             key={category.id}

@@ -13,6 +13,7 @@ import { BsCupStraw } from "react-icons/bs";
 import Testimonial from "../../SharePage/Testimonial/Testimonial.js";
 import HeaderSlider from "../../SharePage/Slider/HeaderSlider.js";
 import PopularPds from "../../AllProduct/PopularPds/PopularPds.js";
+import Catagories from "../../AllProduct/Catagories/Catagories.js";
 const Home = () => {
   return (
     <div>
@@ -104,6 +105,8 @@ const Home = () => {
       {/* container section end */}
 
       {/* Popular Smoothies start  */}
+
+      <Catagories></Catagories>
       <div className="container my-5 py-5 popular-title">
         <h1 className="healthy-title py-3 ">Popular Smoothies</h1>
         <div className="row">
