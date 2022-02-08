@@ -1,9 +1,20 @@
-
 .card {
-    border: none;
+  border: none;
 }
-
-
-.card img{
-    width: 140px;
+.popular-bg-rgba {
+  position: relative;
+  background-color: rgb(92 87 86 / 68%);
+  overflow: hidden;
+}
+.popular-info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(34 29 28 / 66%);
+  color: #fff;
+}
+.popular-title {
+  margin-top: 245px;
 }

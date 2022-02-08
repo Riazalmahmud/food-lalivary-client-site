@@ -36,7 +36,7 @@ const Catagories = () => {
   };
 
   useEffect(() => {
-    fetch("https://murmuring-cove-81107.herokuapp.com/products")
+    fetch("http://localhost:5000/popular_pd")
       .then((res) => res.json())
       .then((data) => setCategories(data));
   }, []);

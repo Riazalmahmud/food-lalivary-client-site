@@ -55,7 +55,10 @@ const AddPopularPd = () => {
               className="bg-transparent mt-2"
             />
 
-            <button type="submit"> publish</button>
+            <button type="submit" className="btn btn-danger mt-5">
+              {" "}
+              publish
+            </button>
           </form>
         </div>
       </div>

@@ -59,7 +59,10 @@ const Feedback = () => {
           className="bg-transparent mt-2"
         />
 
-        <button type="submit"> Feedback submit</button>
+        <button type="submit" className="btn btn-danger mt-5">
+          {" "}
+          Feedback submit
+        </button>
       </form>
     </div>
   );

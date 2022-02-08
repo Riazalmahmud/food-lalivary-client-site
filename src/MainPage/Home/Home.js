@@ -106,63 +106,9 @@ const Home = () => {
 
       {/* Popular Smoothies start  */}
 
-      <Catagories></Catagories>
       <div className="container my-5 py-5 popular-title">
         <h1 className="healthy-title py-3 ">Popular Smoothies</h1>
-        <div className="row">
-          <div
-            className="col-lg-3 col-md-3 col-6 service-style popular-product"
-            id="popular-product-rgba"
-          >
-            <div className="bg-rgba"></div>
-            <div className="product-info">
-              <h5 className="service-title fs-5">Pineapple Splash</h5>
-              <p>Pineapple, mango & min</p>
-              <button type="button" className="btn btn-danger fw-bold ">
-                Add to cart
-              </button>
-            </div>
-          </div>
-          <div
-            className="col-lg-3 col-md-3 col-6 service-style popular-product02"
-            id="popular-product-rgba"
-          >
-            <div className="bg-rgba"></div>
-            <div className="product-info">
-              <h5 className="service-title fs-5">Watermelon Cooler</h5>
-              <p>Watermelon, lime and apple</p>
-              <button type="button" className="btn btn-danger fw-bold ">
-                Add to cart
-              </button>
-            </div>
-          </div>
-          <div
-            className="col-lg-3 col-md-3 col-6 service-style popular-product03"
-            id="popular-product-rgba"
-          >
-            <div className="bg-rgba"></div>
-            <div className="product-info">
-              <h5 className="service-title fs-5">Violet Banana</h5>
-              <p>Blackberry, banana & kiwi</p>
-              <button type="button" className="btn btn-danger fw-bold ">
-                Add to cart
-              </button>
-            </div>
-          </div>
-          <div
-            className="col-lg-3 col-md-3 col-6 service-style popular-product04"
-            id="popular-product-rgba"
-          >
-            <div className="bg-rgba"></div>
-            <div className="product-info">
-              <h5 className="service-title fs-5">Pineapple Splash</h5>
-              <p>Pineapple, mango & min</p>
-              <button type="button" className="btn btn-danger fw-bold ">
-                add to cart
-              </button>
-            </div>
-          </div>
-        </div>
+        <Catagories></Catagories>
       </div>
       {/* container section end */}
       <div className="container-fluid organic-food-style">

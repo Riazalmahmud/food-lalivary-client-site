@@ -10,7 +10,7 @@ const Category = (props) => {
       <Col>
         <Card className="category">
           <div className="popular-bg-rgba">
-            <img src={image} alt="popular product" />
+            <img className="img-fluid" src={image} alt="popular product" />
           </div>
           <div className="popular-info">
             <h5 className="popular-title fs-5">{title}</h5>
