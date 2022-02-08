@@ -31,6 +31,7 @@ import AddProduct from "../../SharePage/AddProduct/AddProduct.js";
 import ProductManage from "../../SharePage/ProductManage/ProductManage.js";
 import AdminRoute from "../../SharePage/AdminRoute/AdminRoute.js";
 import MakeAdmin from "../../SharePage/MakeAdmin/MakeAdmin.js";
+import AddPopularPd from "../../SharePage/AddPopularPd/AddPopularPd.js";
 const drawerWidth = 240;
 const Dashboard = (props) => {
   const { window } = props;
@@ -60,6 +61,9 @@ const Dashboard = (props) => {
             </Link>
             <Link to={`${url}/AddProduct`}>
               <Button color="inherit">AddProduct</Button>
+            </Link>
+            <Link to={`${url}/AddPopularPd`}>
+              <Button color="inherit">add popluar product</Button>
             </Link>
             <Link to={`${url}/ProductManage`}>
               <Button color="inherit">ProductManage</Button>
@@ -144,6 +148,9 @@ const Dashboard = (props) => {
             </AdminRoute>
             <AdminRoute path={`${path}/Feedback`}>
               <Feedback></Feedback>
+            </AdminRoute>
+            <AdminRoute path={`${path}/AddPopularPd`}>
+              <AddPopularPd></AddPopularPd>
             </AdminRoute>
             <Route path={`${path}/addProduct`}>
               <AddProduct></AddProduct>

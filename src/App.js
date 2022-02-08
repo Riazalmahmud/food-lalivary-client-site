@@ -15,6 +15,7 @@ import AddProduct from "./SharePage/AddProduct/AddProduct.js";
 import Contact from "./MainPage/Contact/Contact.js";
 import Blog from "./MainPage/Blog/Blog.js";
 import Dashboard from "./MainPage/Dashboard/Dashboard.js";
+import AddPopularPd from "./SharePage/AddPopularPd/AddPopularPd.js";
 function App() {
   return (
     <div className="App">
@@ -31,8 +32,8 @@ function App() {
             <Route path="/Register">
               <Register />
             </Route>
-            <Route path="/Contact">
-              <Contact />
+            <Route path="/AddPopularPd">
+              <AddPopularPd />
             </Route>
             <Route path="/blog">
               <Blog />
@@ -49,6 +50,7 @@ function App() {
             <PrivateRoute path="/AddProduct">
               <AddProduct></AddProduct>
             </PrivateRoute>
+
             <Route path="/">
               <Home />
             </Route>
