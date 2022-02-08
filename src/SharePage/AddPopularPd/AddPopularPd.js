@@ -7,21 +7,18 @@ const AddPopularPd = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => {
     console.log(data);
-    axios
-      .post("https://murmuring-cove-81107.herokuapp.com/products", data)
-      .then((res) => {
-        if (res.data.insertedId) {
-          <Alert severity="success">Successfully product publish </Alert>;
-        }
-      });
+    axios.post("http://localhost:5000/popular_pd", data).then((res) => {
+      if (res.data.insertedId) {
+        <Alert severity="success">Successfully popular product publish </Alert>;
+      }
+    });
   };
 
   return (
     <div>
-      <h1>AddPopularPd</h1>
       <div className="container my-5">
         <div className="login-form shadow-lg p-3 mb-5 bg-body rounded w-50">
-          <h2>Product publish </h2>
+          <h2> Popular Product publish </h2>
           <form onSubmit={handleSubmit(onSubmit)} className="login-design">
             <Form.Control
               {...register("title")}
