@@ -1,0 +1,43 @@
+/* --------------rooboto fonts----------------  */
+.Roboto-b-n {
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.Roboto-b-i {
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+.Roboto-n-i {
+    font-family: 'Roboto Condensed';
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+.Roboto-w-300-i{
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+.Roboto-n-n {
+    font-family: 'Roboto Condensed';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.Roboto-b-n {
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

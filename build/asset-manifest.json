@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5af1cdb5.css",
+    "main.js": "/static/js/main.f69bcd21.js",
+    "static/js/787.697fd23e.chunk.js": "/static/js/787.697fd23e.chunk.js",
+    "static/media/avocado.png": "/static/media/avocado.19bb0776adec855d4464.png",
+    "static/media/smoothie_SLIDE_03.jpg": "/static/media/smoothie_SLIDE_03.1801f49c3fb7be40ad68.jpg",
+    "static/media/smoothie_SLIDE_01.jpg": "/static/media/smoothie_SLIDE_01.f72eb5f31c4084d1f11a.jpg",
+    "static/media/footer-bg.png": "/static/media/footer-bg.8df443f8e96ba592224a.png",
+    "static/media/smoothie_SLIDE_02.jpg": "/static/media/smoothie_SLIDE_02.5007d7bb3fc37b118915.jpg",
+    "static/media/pop_smoothie_03-720x1030.jpg": "/static/media/pop_smoothie_03-720x1030.e2b3c08df7f5b19e273b.jpg",
+    "static/media/pop_smoothie_01-720x1030.jpg": "/static/media/pop_smoothie_01-720x1030.c1e0a29b2c2c1c2a8f25.jpg",
+    "static/media/pop_smoothie_02-720x1030.jpg": "/static/media/pop_smoothie_02-720x1030.ab67de6479f2ad384f00.jpg",
+    "static/media/pop_smoothie_04-720x1030.jpg": "/static/media/pop_smoothie_04-720x1030.63d932b9c47c9cd637ad.jpg",
+    "static/media/Brand.png": "/static/media/Brand.98a8b029cc78e3a48d35.png",
+    "static/media/health-bottle-cut.jpg": "/static/media/health-bottle-cut.57cf16c9f29114e20bd2.jpg",
+    "static/media/footer-banner.jpg": "/static/media/footer-banner.614a864183990df8e18a.jpg",
+    "static/media/02_vegetables-280x355.jpg": "/static/media/02_vegetables-280x355.d82d5fe88cfd21c78af0.jpg",
+    "static/media/03_berries-280x355.jpg": "/static/media/03_berries-280x355.98cfcea4d73720a88023.jpg",
+    "static/media/01_fruits-280x355.jpg": "/static/media/01_fruits-280x355.396b9a8be932eb680344.jpg",
+    "static/media/04_nuts-280x355.jpg": "/static/media/04_nuts-280x355.11ad2c6f1909e5aab06b.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.5af1cdb5.css.map": "/static/css/main.5af1cdb5.css.map",
+    "main.f69bcd21.js.map": "/static/js/main.f69bcd21.js.map",
+    "787.697fd23e.chunk.js.map": "/static/js/787.697fd23e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5af1cdb5.css",
+    "static/js/main.f69bcd21.js"
+  ]
+}
