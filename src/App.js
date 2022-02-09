@@ -16,6 +16,7 @@ import Contact from "./MainPage/Contact/Contact.js";
 import Blog from "./MainPage/Blog/Blog.js";
 import Dashboard from "./MainPage/Dashboard/Dashboard.js";
 import AddPopularPd from "./SharePage/AddPopularPd/AddPopularPd.js";
+import Testimonial from "./SharePage/Testimonial/Testimonial.js";
 function App() {
   return (
     <div className="App">
@@ -34,6 +35,9 @@ function App() {
             </Route>
             <Route path="/AddPopularPd">
               <AddPopularPd />
+            </Route>
+            <Route path="/Testimonial">
+              <Testimonial />
             </Route>
             <Route path="/blog">
               <Blog />
